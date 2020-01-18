@@ -364,7 +364,7 @@ footer a {
   -webkit-transform: scale(1);
   transform: scale(1);
 }
-.container .card button {
+.container .card .button {
   position: absolute;
   right: 14px;
   bottom: 14px;
@@ -378,10 +378,10 @@ footer a {
   transition: all 0.3s ease;
   mix-blend-mode: multiply;
 }
-.container .card button i {
+.container .card .button i {
   font-size: 3rem;
 }
-.container .card:hover button {
+.container .card:hover .button {
   transform: scale(16.5);
 }
 .container .card:hover p {
@@ -393,6 +393,6 @@ footer a {
 .container .card2 .pic {
   background-image: url('../img/kookbook_cover.jpg');
 }
-.container .card2 button {
+.container .card2 .button {
   background-color: #6e9a35;
 }
