@@ -176,7 +176,7 @@ textarea {
 i {
   opacity: 0;
   font-size: 18px;
-  color: #fff;
+  color: white;
   will-change: transform;
   -webkit-transform: scale(0.1);
   transform: scale(0.1);
@@ -243,7 +243,7 @@ footer a {
   position: relative;
   width: 500px;
   height: 200px;
-  background-color: #fff;
+  background-color: white;
   overflow: hidden;
   margin-bottom: 4px;
 }
@@ -257,7 +257,7 @@ footer a {
   width: 16px;
   height: 16px;
   border-radius: 16px;
-  background-color: #e6e5e1;
+  background-color: #eb6da8;
 }
 .container .card:after {
   content: '';
@@ -269,7 +269,7 @@ footer a {
   width: 16px;
   height: 16px;
   border-radius: 16px;
-  background-color: #e6e5e1;
+  background-color: #eb6da8;
 }
 .container .card ul {
   z-index: 99;
@@ -283,7 +283,7 @@ footer a {
   height: 2px;
   border-radius: 2px;
   margin: 6px 0;
-  background-color: #e6e5e1;
+  background-color: #ddd;
 }
 .container .card h2 {
   z-index: 99;
@@ -293,7 +293,7 @@ footer a {
   right: 130px;
   font-size: 60px;
   font-weight: 700;
-  color: #fff;
+  color: white;
 }
 .container .card .fa-arrow-right {
   z-index: 100;
@@ -385,7 +385,7 @@ footer a {
   transform: scale(16.5);
 }
 .container .card:hover p {
-  color: #fff;
+  color: white;
 }
 .container .card:hover .pic {
   filter: grayscale(0);
