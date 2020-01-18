@@ -189,18 +189,55 @@ h2 {
 }
 
 body {
-  background-color: #e6e5e1;
+  background-color: #eb6da8;
+  color: white;
   width: 100vw;
   height: 100vh;
 }
 
-.container {
-  width: 100%;
+footer {
+  margin-top: 30px;
+  letter-spacing: 1px;
+  font-size: 10px;
+}
+
+footer a {
+  color: white;
+}
+
+.container .main-header {
+  margin-bottom: 30px;
+  max-width: 500px;
+}
+.container .main-header h1 {
+  height: 80px;
+  margin: 0;
+}
+.container .main-header h1 img {
   height: 100%;
+  width: auto;
+}
+.container .main-header h2 {
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.tiny {
+  font-size: 8px;
+}
+
+.flex-center {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.container {
+  width: 100%;
+  padding-top: 10vh;
+  padding-bottom: 30px;
 }
 .container .card {
   position: relative;
@@ -283,8 +320,8 @@ body {
   z-index: 100;
   width: 400px;
   height: 200px;
-  background-image: url('https://images.unsplash.com/photo-1525543907410-b2562b6796d6?ixlib=rb-0.3.5&s=9ff8e5e718a6a40cbd0e1471235912f4&auto=format&fit=crop&w=3452&q=80');
-  background-size: 100% 100%;
+  background-image: url('../img/milkmade_cover.jpg');
+  background-size: cover;
   filter: grayscale(100%);
 }
 .container .card .social {
@@ -295,13 +332,16 @@ body {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+  justify-content: left;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   width: 180px;
   height: 64px;
   border-radius: 80px;
+}
+.container .card .social i.fab {
+  width: 45px;
 }
 .container .card .social i:nth-of-type(1) {
   -webkit-transition-delay: 0.4s;
@@ -330,13 +370,13 @@ body {
   bottom: 14px;
   width: 30px;
   height: 30px;
-  background-color: #da4d1d;
+  background-color: #beb2d7;
   border: none;
   border-radius: 30px;
   cursor: pointer;
   outline: none;
   transition: all 0.3s ease;
-  mix-blend-mode: hard-light;
+  mix-blend-mode: multiply;
 }
 .container .card button i {
   font-size: 3rem;
@@ -351,15 +391,8 @@ body {
   filter: grayscale(0);
 }
 .container .card2 .pic {
-  background-image: url('https://images.unsplash.com/photo-1528785198459-ec50485704c7?ixlib=rb-0.3.5&s=3a2fc3039516555bbb2e9cd2967bd321&auto=format&fit=crop&w=1537&q=80');
+  background-image: url('../img/kookbook_cover.jpg');
 }
 .container .card2 button {
-  background-color: #2b26c3;
-}
-
-.dr {
-  position: absolute;
-  bottom: 16px;
-  right: 16px;
-  width: 100px;
+  background-color: #6e9a35;
 }
